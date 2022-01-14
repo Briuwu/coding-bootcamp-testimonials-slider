@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/main.css">
+  <script src="./script.js" defer></script>
+  
+  <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 10px; text-align: center; margin-top: 10px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <article class="article">
+      <div class="article__img">
+        <img aria-label="Person Photo" src="./" alt="person image" class="article--photo" id="photo">
+        <div class="article__btn">
+          <button id="prev-btn" class="article__btn--all"><img src="./images/icon-prev.svg" alt="" class="article__btn--img"></button>
+          <button id="next-btn" class="article__btn--all"><img src="./images/icon-next.svg" alt="" class="article__btn--img"></button>
+        </div>
+      </div>
+
+      <div class="article__info">
+        <blockquote aria-label="Person Review" id="quote" class="article__quote">
+        </blockquote>
+        <div class="article__person">
+          <p aria-label="Person Name" id="name" class="article__person--name"></p>
+          <p aria-label="Person Job" id="job" class="article__person--job"></p>
+        </div>
+      </div>
+    </article>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/Briuwu7474" target="_blank">Briuwu</a>.
+    </div>
+  </main>
+  
+</body>
+</html>
